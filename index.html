@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadatos y configuración básica -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="icon" type="image/x-icon" href="./assets/graficos/favicon.ico">
+  
+  <!-- Título de la página -->
+  <title>InlitX - Portfolio</title>
+</head>
+<body class="custom-cursor">
+  
+  <!-- Terminal simuladora -->
+  <div id="terminal" class="custom-cursor">
+    <div id="terminal-header">
+      <div id="terminal-buttons">
+        <div class="terminal-button" id="close-button"></div> 
+        <div class="terminal-button" id="minimize-button"></div> 
+        <div class="terminal-button" id="maximize-button"></div> 
+      </div>
+    </div>
+    <div id="terminal-content">
+      <p id="terminal-text"></p> 
+    </div>
+  </div>
+  
+  <!-- Fondo de video -->
+  <div id="video-background">
+    <video autoplay muted loop id="myVideo">
+      <source src="./assets/graficos/video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div id="audio-background">
+      <audio autoplay loop id="myAudio">
+        <source src="./assets/graficos/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    
+    <!-- Tarjeta de perfil -->
+    <div id="blurred-box">
+      <img src="./assets/graficos/me.jpg" alt="Profile Picture">
+      <p id="username" class="username">𝐈𝐧𝐥𝐢𝐭𝐗</p>
+      <div class="user-description">
+        <p id="user-description">𝙾𝚝𝚛𝚘 𝙳𝚒𝚊, 𝙻𝚊 𝙼𝚒𝚜𝚖𝚊 𝙼𝚒𝚎𝚛𝚍𝚊 ⛈️</p>
+      </div>
+      
+      <!-- Enlaces de redes sociales -->
+      <div class="links">
+        <a href="https://t.me/Inlitx" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a> 
+        <a href="https://github.com/InlitX" target="_blank">
+          <i class="fab fa-github"></i> 
+        </a> 
+        <a href="https://www.tiktok.com/@InlitX" target="_blank">
+          <i class="fa-brands fa-tiktok"></i>
+        </a> 
+        <a href="https://www.instagram.com/InlitX" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a> 
+        <a href="mailto:Inlitx@proton.me" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a> 
+        <a href="https://inlitx.xyz" target="_blank">
+          <i class="fa-solid fa-globe"></i>
+        </a>           
+      </div>
+    </div>
+  </div>
+  
+  <!-- Scripts de JavaScript -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
