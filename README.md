@@ -19,8 +19,8 @@ Este proyecto te permite crear una página personalizada para centralizar tus re
 ## 🖼️ **Vista Previa**   
    
 <p align="center">  
-  <img src="https://files.catbox.moe/qto4r7.png" alt="Vista previa 1" width="300px">  
-  <img src="https://files.catbox.moe/oxih2n.png" alt="Vista previa 2" width="300px">  
+  <img src="https://files.catbox.moe/2hbrzh.png" alt="Vista previa 1" width="300px">  
+  <img src="https://files.catbox.moe/tq4mkd.png" alt="Vista previa 2" width="300px">  
 </p>  
 
 ---
